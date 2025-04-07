@@ -4,378 +4,122 @@
         <title>4Workout Blog</title>
         <link>https://your-docusaurus-site.example.com/blog</link>
         <description>4Workout Blog</description>
-        <lastBuildDate>Sun, 06 Apr 2025 04:44:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Apr 2025 08:29:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[💰 Rules for Building Wealth]]></title>
-            <link>https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1</link>
-            <guid>https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1</guid>
-            <pubDate>Sun, 06 Apr 2025 04:44:57 GMT</pubDate>
-            <description><![CDATA[1️⃣ Master Financial Discipline 🏆]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1️⃣-master-financial-discipline-">1️⃣ <strong>Master Financial Discipline 🏆</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#1%EF%B8%8F%E2%83%A3-master-financial-discipline-" class="hash-link" aria-label="Direct link to 1️⃣-master-financial-discipline-" title="Direct link to 1️⃣-master-financial-discipline-">​</a></h2>
-<p>Wealth doesn’t come from luck—it’s built on <strong>discipline and smart financial decisions</strong>. Controlling spending and making informed choices set the foundation for financial freedom.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Follow the <strong>50/30/20 rule</strong>—50% on needs, 30% on wants, and 20% on savings &amp; investments.</li>
-<li>Avoid impulse purchases—<strong>wait 24 hours before buying anything unnecessary</strong>.</li>
-<li>Track your spending—use an <strong>app or a simple budget notebook</strong> to stay accountable.</li>
-</ul>
+            <title><![CDATA[Frontend Interview Questions and Answers]]></title>
+            <link>https://your-docusaurus-site.example.com/blog/interview/frontend-interview</link>
+            <guid>https://your-docusaurus-site.example.com/blog/interview/frontend-interview</guid>
+            <pubDate>Mon, 07 Apr 2025 08:29:25 GMT</pubDate>
+            <description><![CDATA[Programming Languages]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="programming-languages">Programming Languages<a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#programming-languages" class="hash-link" aria-label="Direct link to Programming Languages" title="Direct link to Programming Languages">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="core-concepts-closures-hoisting-scope"><strong>Core Concepts (Closures, Hoisting, Scope)</strong><a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#core-concepts-closures-hoisting-scope" class="hash-link" aria-label="Direct link to core-concepts-closures-hoisting-scope" title="Direct link to core-concepts-closures-hoisting-scope">​</a></h3>
+<p>❓ <strong>What is a closure, and why is it useful?</strong><br>
+<!-- -->🔑 <strong>Answer</strong>: A closure is a function that "remembers" the variables from its lexical scope, even after the outer function has finished execution. Closures are often used for data privacy and creating function factories.</p>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">outer</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">let</span><span class="token plain"> count </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// Lexical scope variable</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">inner</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    count</span><span class="token operator" style="color:#393A34">++</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> count</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> counter </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">outer</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">log</span><span class="token punctuation" style="color:#393A34">(</span><span class="token function" style="color:#d73a49">counter</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// 1</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">log</span><span class="token punctuation" style="color:#393A34">(</span><span class="token function" style="color:#d73a49">counter</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// 2</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <hr>
 <!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2️⃣-invest-early--wisely-">2️⃣ <strong>Invest Early &amp; Wisely 📈</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#2%EF%B8%8F%E2%83%A3-invest-early--wisely-" class="hash-link" aria-label="Direct link to 2️⃣-invest-early--wisely-" title="Direct link to 2️⃣-invest-early--wisely-">​</a></h2>
-<p>Money sitting in a bank loses value over time due to inflation. Investing allows wealth to grow passively over time.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="es6-features"><strong>ES6+ Features</strong><a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#es6-features" class="hash-link" aria-label="Direct link to es6-features" title="Direct link to es6-features">​</a></h3>
+<p>❓ <strong>What is the difference between <code>let</code>, <code>const</code>, and <code>var</code>?</strong> 🧠<br>
+<!-- -->🔑 <strong>Answer</strong>:</p>
 <ul>
-<li>Start with <strong>low-risk investments</strong> like index funds or ETFs.</li>
-<li>Diversify—don’t put all your money into one stock or asset.</li>
-<li>Take advantage of <strong>compound interest</strong>—the earlier you invest, the bigger your returns!</li>
+<li><code>var</code>: Function-scoped and hoisted. Can be re-declared. 😵</li>
+<li><code>let</code>: Block-scoped. Can be re-assigned but not re-declared within the same scope. 🚀</li>
+<li><code>const</code>: Block-scoped. Cannot be re-assigned or re-declared. Great for constants! 🚫</li>
+</ul>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> name </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Copilot"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">name </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"AI"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// ❌ Error: Assignment to constant variable</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="promises-and-asyncawait"><strong>Promises and Async/Await</strong><a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#promises-and-asyncawait" class="hash-link" aria-label="Direct link to promises-and-asyncawait" title="Direct link to promises-and-asyncawait">​</a></h3>
+<p>❓ <strong>What is the difference between promises and async/await?</strong> ✨<br>
+<!-- -->🔑 <strong>Answer</strong>: Promises are objects representing eventual completion or failure of an asynchronous operation. Async/Await makes it easier to handle promises by writing cleaner, synchronous-like code.</p>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// Promise Example</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">fetch</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"https://api.example.com"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">then</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">response</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> response</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">json</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">then</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">data</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">log</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">data</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">.</span><span class="token keyword control-flow" style="color:#00009f">catch</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">error</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">error</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">error</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// Async/Await Example</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">async</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">fetchData</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword control-flow" style="color:#00009f">try</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> response </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword control-flow" style="color:#00009f">await</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">fetch</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"https://api.example.com"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> data </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword control-flow" style="color:#00009f">await</span><span class="token plain"> response</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">json</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">log</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">data</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token keyword control-flow" style="color:#00009f">catch</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">error</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">error</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">error</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="event-handling"><strong>Event Handling</strong><a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#event-handling" class="hash-link" aria-label="Direct link to event-handling" title="Direct link to event-handling">​</a></h3>
+<p>❓ <strong>How can you attach an event handler to an element?</strong> 🖱️<br>
+<!-- -->🔑 <strong>Answer</strong>: You can use <code>addEventListener</code> to attach event handlers dynamically. Example:</p>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token dom variable" style="color:#36acaa">document</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">querySelector</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"#btn"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">addEventListener</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"click"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Button clicked! 🚀"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dom-manipulation"><strong>DOM Manipulation</strong><a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#dom-manipulation" class="hash-link" aria-label="Direct link to dom-manipulation" title="Direct link to dom-manipulation">​</a></h3>
+<p>❓ <strong>How do you dynamically create and append a new DOM element?</strong> 🏗️<br>
+<!-- -->🔑 <strong>Answer</strong>: Use <code>createElement</code> and <code>appendChild</code> or modern <code>append</code>. Example:</p>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> newDiv </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token dom variable" style="color:#36acaa">document</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">createElement</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"div"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">newDiv</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">textContent</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Hello, DOM!"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token dom variable" style="color:#36acaa">document</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">body</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">appendChild</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">newDiv</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// Appends to the body</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="memory-management"><strong>Memory Management</strong><a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#memory-management" class="hash-link" aria-label="Direct link to memory-management" title="Direct link to memory-management">​</a></h3>
+<p>❓ <strong>How does garbage collection work in JavaScript?</strong> 🗑️<br>
+<!-- -->🔑 <strong>Answer</strong>: The garbage collector automatically removes unused objects from memory. Objects are eligible for collection if they are no longer reachable or referenced.<br>
+<!-- -->Example:</p>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">let</span><span class="token plain"> obj </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">data</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Copilot"</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">obj </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword null nil" style="color:#00009f">null</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// Unreachable and eligible for garbage collection</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="error-handling"><strong>Error Handling</strong><a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#error-handling" class="hash-link" aria-label="Direct link to error-handling" title="Direct link to error-handling">​</a></h3>
+<p>❓ <strong>How do you handle errors in JavaScript?</strong> ⚠️<br>
+<!-- -->🔑 <strong>Answer</strong>: Use <code>try...catch</code> blocks for handling synchronous errors and <code>.catch()</code> or <code>async/await</code> with <code>try...catch</code> for asynchronous errors.</p>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword control-flow" style="color:#00009f">try</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword control-flow" style="color:#00009f">throw</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">Error</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Oops! Something went wrong."</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token keyword control-flow" style="color:#00009f">catch</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">err</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">error</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">err</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">message</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// "Oops! Something went wrong."</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="array-methods"><strong>Array Methods</strong><a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#array-methods" class="hash-link" aria-label="Direct link to array-methods" title="Direct link to array-methods">​</a></h3>
+<p>❓ <strong>What does the <code>map</code> method do?</strong> 🗺️<br>
+<!-- -->🔑 <strong>Answer</strong>: The <code>map</code> method creates a new array by transforming each element in the original array. Example:</p>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> nums </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">2</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> squares </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> nums</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">map</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">num</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> num </span><span class="token operator" style="color:#393A34">*</span><span class="token plain"> num</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// [1, 4, 9]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="object-oriented-programming"><strong>Object-Oriented Programming</strong><a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#object-oriented-programming" class="hash-link" aria-label="Direct link to object-oriented-programming" title="Direct link to object-oriented-programming">​</a></h3>
+<p>❓ <strong>What is the difference between a class and a constructor function?</strong> 🏛️<br>
+<!-- -->🔑 <strong>Answer</strong>:</p>
+<ul>
+<li>A constructor function is the traditional way of creating objects.</li>
+<li>Classes, introduced in ES6, are syntactic sugar over constructor functions. They use <code>class</code> keyword and make OOP more readable.</li>
+</ul>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">class</span><span class="token plain"> </span><span class="token class-name">Person</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">constructor</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">name</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">name</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> name</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">greet</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token template-string template-punctuation string" style="color:#e3116c">`</span><span class="token template-string string" style="color:#e3116c">Hello, my name is </span><span class="token template-string interpolation interpolation-punctuation punctuation" style="color:#393A34">${</span><span class="token template-string interpolation keyword" style="color:#00009f">this</span><span class="token template-string interpolation punctuation" style="color:#393A34">.</span><span class="token template-string interpolation property-access">name</span><span class="token template-string interpolation interpolation-punctuation punctuation" style="color:#393A34">}</span><span class="token template-string string" style="color:#e3116c">!</span><span class="token template-string template-punctuation string" style="color:#e3116c">`</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> copilot </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">Person</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Copilot"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token console class-name">console</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">log</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">copilot</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">greet</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic">// Hello, my name is Copilot!</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="frameworks-and-libraries">Frameworks and Libraries<a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#frameworks-and-libraries" class="hash-link" aria-label="Direct link to Frameworks and Libraries" title="Direct link to Frameworks and Libraries">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reactvueangular-fundamentals-"><strong>React/Vue/Angular Fundamentals</strong> 🌐<a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#reactvueangular-fundamentals-" class="hash-link" aria-label="Direct link to reactvueangular-fundamentals-" title="Direct link to reactvueangular-fundamentals-">​</a></h3>
+<p><strong>Q:</strong> What is the purpose of frontend frameworks like React, Vue, or Angular?<br>
+<strong>A:</strong> Frontend frameworks make building complex user interfaces (UI) easier! They:</p>
+<ul>
+<li>Provide reusable components 🧩.</li>
+<li>Optimize performance by managing updates dynamically 🏃‍♂️.</li>
+<li>Enable faster development through libraries and tools 🚀.</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3️⃣-increase-your-income-sources-">3️⃣ <strong>Increase Your Income Sources 💼</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#3%EF%B8%8F%E2%83%A3-increase-your-income-sources-" class="hash-link" aria-label="Direct link to 3️⃣-increase-your-income-sources-" title="Direct link to 3️⃣-increase-your-income-sources-">​</a></h2>
-<p>Relying on a single income source limits financial growth. Wealthy individuals create multiple streams of income.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="state-management-redux-vuex-etc-️"><strong>State Management (Redux, Vuex, etc.)</strong> 🗂️<a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#state-management-redux-vuex-etc-%EF%B8%8F" class="hash-link" aria-label="Direct link to state-management-redux-vuex-etc-️" title="Direct link to state-management-redux-vuex-etc-️">​</a></h3>
+<p><strong>Q:</strong> Why do we need state management libraries like Redux or Vuex?<br>
+<strong>A:</strong> Managing the application's state can get tricky as it grows! State management libraries:</p>
 <ul>
-<li>Start a <strong>side hustle</strong>—freelancing, e-commerce, or consulting.</li>
-<li>Invest in <strong>income-generating assets</strong> like rental properties or dividends.</li>
-<li>Learn high-demand skills to <strong>boost career opportunities</strong> and salary.</li>
+<li>Centralize the app state, making debugging and scaling easier 🕵️‍♀️.</li>
+<li>Allow predictable state changes via defined actions and reducers ⚙️.</li>
+<li>Ensure consistency across multiple components 🎯.</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4️⃣-avoid-debt-traps-">4️⃣ <strong>Avoid Debt Traps 🚫</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#4%EF%B8%8F%E2%83%A3-avoid-debt-traps-" class="hash-link" aria-label="Direct link to 4️⃣-avoid-debt-traps-" title="Direct link to 4️⃣-avoid-debt-traps-">​</a></h2>
-<p>Not all debt is bad, but <strong>high-interest consumer debt</strong> can drain wealth. Understanding good vs. bad debt is crucial.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Prioritize <strong>paying off high-interest debt</strong> first (credit cards, loans).</li>
-<li>Use debt <strong>wisely</strong>—borrow for investments, not for luxury spending.</li>
-<li>Negotiate better interest rates and <strong>avoid unnecessary loans</strong>.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5️⃣-develop-a-wealth-mindset-">5️⃣ <strong>Develop a Wealth Mindset 🧠</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#5%EF%B8%8F%E2%83%A3-develop-a-wealth-mindset-" class="hash-link" aria-label="Direct link to 5️⃣-develop-a-wealth-mindset-" title="Direct link to 5️⃣-develop-a-wealth-mindset-">​</a></h2>
-<p>Financial success starts with the <strong>right mindset</strong>. Thinking like the wealthy helps you make smarter decisions.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Focus on <strong>long-term gains</strong> instead of instant gratification.</li>
-<li>Learn about <strong>financial literacy</strong>—read books, listen to podcasts, or take online courses.</li>
-<li>Network with <strong>successful and financially smart individuals</strong> to gain insights.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6️⃣-automate-savings--investments-">6️⃣ <strong>Automate Savings &amp; Investments ⚡</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#6%EF%B8%8F%E2%83%A3-automate-savings--investments-" class="hash-link" aria-label="Direct link to 6️⃣-automate-savings--investments-" title="Direct link to 6️⃣-automate-savings--investments-">​</a></h2>
-<p>One of the easiest ways to grow wealth is through <strong>automated saving and investing</strong>.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Set up <strong>automatic transfers</strong> to savings and investment accounts monthly.</li>
-<li>Increase savings percentage whenever income grows.</li>
-<li>Treat saving like an expense—<strong>pay yourself first!</strong></li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7️⃣-create-passive-income-sources-">7️⃣ <strong>Create Passive Income Sources 🏝</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#7%EF%B8%8F%E2%83%A3-create-passive-income-sources-" class="hash-link" aria-label="Direct link to 7️⃣-create-passive-income-sources-" title="Direct link to 7️⃣-create-passive-income-sources-">​</a></h2>
-<p>True financial freedom comes when money works for you, not the other way around.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Build <strong>royalty income</strong> from books, patents, or digital products.</li>
-<li>Invest in <strong>stocks that pay dividends</strong> regularly.</li>
-<li>Develop a <strong>business that can run without daily involvement</strong>.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="8️⃣-be-smart-with-taxes-">8️⃣ <strong>Be Smart with Taxes 🏛</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#8%EF%B8%8F%E2%83%A3-be-smart-with-taxes-" class="hash-link" aria-label="Direct link to 8️⃣-be-smart-with-taxes-" title="Direct link to 8️⃣-be-smart-with-taxes-">​</a></h2>
-<p>Understanding <strong>how taxes work</strong> can save you thousands over a lifetime.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Maximize tax deductions—check what expenses can be deducted.</li>
-<li>Use <strong>tax-advantaged accounts</strong> like retirement savings to reduce taxable income.</li>
-<li>Consult a <strong>financial advisor</strong> to optimize tax strategies legally.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="9️⃣-protect-your-wealth-">9️⃣ <strong>Protect Your Wealth 🛡</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#9%EF%B8%8F%E2%83%A3-protect-your-wealth-" class="hash-link" aria-label="Direct link to 9️⃣-protect-your-wealth-" title="Direct link to 9️⃣-protect-your-wealth-">​</a></h2>
-<p>Earning money is important, but <strong>keeping it safe</strong> is just as crucial. Smart financial protection ensures long-term wealth stability.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Get <strong>insurance</strong> (health, life, property) to safeguard your assets.</li>
-<li>Avoid financial scams—<strong>be cautious of “get-rich-quick” schemes</strong>.</li>
-<li>Diversify assets to <strong>reduce risks in economic downturns</strong>.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-give-back--build-legacy-">🔟 <strong>Give Back &amp; Build Legacy 🎁</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#-give-back--build-legacy-" class="hash-link" aria-label="Direct link to -give-back--build-legacy-" title="Direct link to -give-back--build-legacy-">​</a></h2>
-<p>True wealth isn’t just about accumulating money—it’s about <strong>impact and legacy</strong>. Giving back creates fulfillment beyond financial success.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Donate to <strong>causes you care about</strong> and support community projects.</li>
-<li>Teach financial literacy to <strong>help others grow wealth too</strong>.</li>
-<li>Plan generational wealth by <strong>investing in long-term assets</strong> for family or future generations.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-final-thought-wealth-is-built-step-by-step">🎯 <strong>Final Thought: Wealth is Built Step by Step!</strong><a href="https://your-docusaurus-site.example.com/blog/financial-health/rules-wealthy-1#-final-thought-wealth-is-built-step-by-step" class="hash-link" aria-label="Direct link to -final-thought-wealth-is-built-step-by-step" title="Direct link to -final-thought-wealth-is-built-step-by-step">​</a></h2>
-<p>Financial success doesn’t happen overnight—it comes from <strong>consistent habits, smart investments, and disciplined choices</strong>.</p>
-<p>💡 <em>Which habit will you focus on first? Let’s build wealth together!</em> 🚀💰</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[🎉 Rules for a Happier Life]]></title>
-            <link>https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1</link>
-            <guid>https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1</guid>
-            <pubDate>Sun, 06 Apr 2025 04:24:12 GMT</pubDate>
-            <description><![CDATA[1️⃣ Practice Gratitude 🙏]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1️⃣-practice-gratitude-">1️⃣ <strong>Practice Gratitude 🙏</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#1%EF%B8%8F%E2%83%A3-practice-gratitude-" class="hash-link" aria-label="Direct link to 1️⃣-practice-gratitude-" title="Direct link to 1️⃣-practice-gratitude-">​</a></h2>
-<p>Gratitude shifts your mindset from scarcity to abundance. It helps you appreciate the good things in life, big or small, leading to more happiness.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Keep a daily <strong>gratitude journal</strong>—write down at least three things you’re grateful for.</li>
-<li>Take moments to <strong>pause and appreciate</strong> simple joys like sunshine, laughter, or a good meal.</li>
-<li>Express gratitude to others—say <strong>thank you</strong> more often, whether verbally or in messages.</li>
-</ul>
-<hr>
-<!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2️⃣-live-in-the-present-">2️⃣ <strong>Live in the Present ⏳</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#2%EF%B8%8F%E2%83%A3-live-in-the-present-" class="hash-link" aria-label="Direct link to 2️⃣-live-in-the-present-" title="Direct link to 2️⃣-live-in-the-present-">​</a></h2>
-<p>Life happens <strong>now</strong>—not yesterday or tomorrow. Being present allows you to truly experience joy and prevents stress from overthinking.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Practice <strong>mindfulness</strong> through breathing exercises or meditation. 🧘‍♂️</li>
-<li>Reduce distractions—<strong>put your phone away</strong> during important moments.</li>
-<li>Fully immerse yourself in whatever you’re doing—<strong>whether eating, walking, or chatting</strong> with a friend.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3️⃣-prioritize-health-️">3️⃣ <strong>Prioritize Health 🏃‍♂️🥗💤</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#3%EF%B8%8F%E2%83%A3-prioritize-health-%EF%B8%8F" class="hash-link" aria-label="Direct link to 3️⃣-prioritize-health-️" title="Direct link to 3️⃣-prioritize-health-️">​</a></h2>
-<p>Your body and mind are deeply connected—when you take care of one, the other benefits! Physical wellness directly impacts happiness levels.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Make <strong>exercise fun</strong>—dance, swim, or do activities you enjoy.</li>
-<li>Swap processed snacks for <strong>healthier options</strong>—nuts, fruits, and whole foods. 🍏</li>
-<li>Prioritize <strong>quality sleep</strong>—establish a bedtime routine and avoid screens before bed. 😴</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4️⃣-nurture-relationships-️">4️⃣ <strong>Nurture Relationships ❤️</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#4%EF%B8%8F%E2%83%A3-nurture-relationships-%EF%B8%8F" class="hash-link" aria-label="Direct link to 4️⃣-nurture-relationships-️" title="Direct link to 4️⃣-nurture-relationships-️">​</a></h2>
-<p>Connecting with loved ones strengthens emotional well-being and creates lasting happiness. Genuine friendships and relationships are key to fulfillment.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Spend <strong>quality time</strong> with people who bring you joy—time matters more than quantity.</li>
-<li>Be <strong>fully present</strong> when talking—listen actively instead of thinking about your next reply.</li>
-<li>Show appreciation! Send a thoughtful message or <strong>express gratitude</strong> for their presence in your life.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5️⃣-be-kind-to-yourself-">5️⃣ <strong>Be Kind to Yourself 🤗</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#5%EF%B8%8F%E2%83%A3-be-kind-to-yourself-" class="hash-link" aria-label="Direct link to 5️⃣-be-kind-to-yourself-" title="Direct link to 5️⃣-be-kind-to-yourself-">​</a></h2>
-<p>We are often our own worst critics. Practicing self-compassion reduces stress and builds confidence. Remember, <strong>progress is more important than perfection</strong>.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Challenge <strong>negative self-talk</strong>—replace “I’m not good enough” with “I am learning.”</li>
-<li>Set <strong>realistic goals</strong>—break big tasks into smaller, manageable steps.</li>
-<li>Treat yourself like you’d treat a friend—<strong>with kindness, patience, and encouragement</strong>.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6️⃣-limit-negativity-">6️⃣ <strong>Limit Negativity 🚫</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#6%EF%B8%8F%E2%83%A3-limit-negativity-" class="hash-link" aria-label="Direct link to 6️⃣-limit-negativity-" title="Direct link to 6️⃣-limit-negativity-">​</a></h2>
-<p>Constant negativity can drain your emotional energy and lower happiness. Filtering out toxic influences helps maintain peace of mind.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Reduce <strong>negative media consumption</strong>—limit excessive exposure to bad news.</li>
-<li>Distance yourself from <strong>toxic people</strong> who constantly complain or bring you down.</li>
-<li>Shift focus from problems to solutions—<strong>reframe challenges as opportunities to grow</strong>.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7️⃣-find-purpose-">7️⃣ <strong>Find Purpose 🌟</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#7%EF%B8%8F%E2%83%A3-find-purpose-" class="hash-link" aria-label="Direct link to 7️⃣-find-purpose-" title="Direct link to 7️⃣-find-purpose-">​</a></h2>
-<p>Having a strong <strong>sense of purpose</strong> makes life more fulfilling and rewarding. Aligning your actions with your values creates deeper happiness.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Identify activities that make you <strong>excited and energized</strong>.</li>
-<li>Set goals that align with your <strong>passions and values</strong>.</li>
-<li>Engage in <strong>volunteering or mentoring</strong>—helping others fosters a sense of meaning.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="8️⃣-embrace-joy-in-small-things-">8️⃣ <strong>Embrace Joy in Small Things ✨</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#8%EF%B8%8F%E2%83%A3-embrace-joy-in-small-things-" class="hash-link" aria-label="Direct link to 8️⃣-embrace-joy-in-small-things-" title="Direct link to 8️⃣-embrace-joy-in-small-things-">​</a></h2>
-<p>Happiness isn’t just in grand achievements—it’s hidden in tiny, everyday moments. Learning to appreciate them keeps life exciting.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Notice <strong>simple joys</strong>—a kind gesture, fresh air, a great song.</li>
-<li>Create a <strong>“Happy Moments” list</strong>—document small things that make you smile. 😊</li>
-<li>Celebrate even the <strong>small wins</strong>—progress matters, no matter how small.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="9️⃣-laugh-more-">9️⃣ <strong>Laugh More 😂</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#9%EF%B8%8F%E2%83%A3-laugh-more-" class="hash-link" aria-label="Direct link to 9️⃣-laugh-more-" title="Direct link to 9️⃣-laugh-more-">​</a></h2>
-<p>Laughter reduces stress, strengthens connections, and boosts mood instantly. The more you laugh, the brighter life feels!<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Watch <strong>comedies or read funny stories</strong> to bring more humor into your life.</li>
-<li>Surround yourself with <strong>positive, lighthearted people</strong>.</li>
-<li>Learn to laugh at yourself—embrace life’s quirks!</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-give-back-">🔟 <strong>Give Back 🎁</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#-give-back-" class="hash-link" aria-label="Direct link to -give-back-" title="Direct link to -give-back-">​</a></h2>
-<p>Helping others increases happiness, strengthens bonds, and provides purpose beyond personal success. Generosity enriches both <strong>the giver and receiver</strong>.<br>
-<!-- -->✨ <strong>How to Improve:</strong></p>
-<ul>
-<li>Do <strong>small acts of kindness</strong> daily—smiling, offering help, or complimenting someone.</li>
-<li>Get involved in <strong>community service or charity work</strong>.</li>
-<li>Share your <strong>knowledge, skills, or time</strong> with others—it’s not just about money.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-final-thought-happiness-is-a-lifestyle">🎯 <strong>Final Thought: Happiness is a Lifestyle!</strong><a href="https://your-docusaurus-site.example.com/blog/metal-health/happier-life-1#-final-thought-happiness-is-a-lifestyle" class="hash-link" aria-label="Direct link to -final-thought-happiness-is-a-lifestyle" title="Direct link to -final-thought-happiness-is-a-lifestyle">​</a></h2>
-<p>Happiness isn’t something you wait for—it’s something you create <strong>through daily habits</strong>. The more you cultivate these practices, the brighter life becomes!</p>
-<p>💡 <em>Which rule will you focus on first? Let’s make happiness a habit!</em> 🚀😃</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Chemicals in the brain]]></title>
-            <link>https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain</link>
-            <guid>https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain</guid>
-            <pubDate>Sun, 13 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Understanding brain chemicals (neurotransmitters) and how to naturally optimize them for better mental well-being and productivity.]]></description>
-            <content:encoded><![CDATA[<p>Understanding brain chemicals (neurotransmitters) and how to naturally optimize them for better mental well-being and productivity.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-brain-chemicals">What Are Brain Chemicals?<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#what-are-brain-chemicals" class="hash-link" aria-label="Direct link to What Are Brain Chemicals?" title="Direct link to What Are Brain Chemicals?">​</a></h3>
-<p>Brain chemicals, or neurotransmitters, are natural substances that transmit signals between nerve cells in the brain. They play crucial roles in regulating our mood, focus, motivation, and overall mental health.</p>
-<!-- -->
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-functions-of-brain-chemicals">Key Functions of Brain Chemicals<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#key-functions-of-brain-chemicals" class="hash-link" aria-label="Direct link to Key Functions of Brain Chemicals" title="Direct link to Key Functions of Brain Chemicals">​</a></h3>
-<ul>
-<li><strong>Mood Regulation:</strong> Control how we feel emotionally</li>
-<li><strong>Cognitive Performance:</strong> Affect our ability to focus, learn, and remember</li>
-<li><strong>Physical Response:</strong> Influence our energy levels and physical reactions</li>
-<li><strong>Sleep Patterns:</strong> Help regulate our sleep-wake cycle</li>
-<li><strong>Social Behavior:</strong> Impact how we interact with others</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-naturally-optimize-your-brain-chemistry">How to Naturally Optimize Your Brain Chemistry<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#how-to-naturally-optimize-your-brain-chemistry" class="hash-link" aria-label="Direct link to How to Naturally Optimize Your Brain Chemistry" title="Direct link to How to Naturally Optimize Your Brain Chemistry">​</a></h3>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="1-through-diet">1. Through Diet<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#1-through-diet" class="hash-link" aria-label="Direct link to 1. Through Diet" title="Direct link to 1. Through Diet">​</a></h4>
-<ul>
-<li><strong>What to Eat:</strong>
-<ul>
-<li>Protein-rich foods (fish, eggs, lean meats)</li>
-<li>Complex carbohydrates (whole grains)</li>
-<li>Omega-3 fatty acids (salmon, walnuts)</li>
-<li>Fresh fruits and vegetables</li>
-<li>Dark chocolate (in moderation)</li>
-</ul>
-</li>
-<li><strong>Why It Works:</strong>
-These foods provide essential nutrients that help produce and balance neurotransmitters</li>
-</ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="2-physical-activity">2. Physical Activity<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#2-physical-activity" class="hash-link" aria-label="Direct link to 2. Physical Activity" title="Direct link to 2. Physical Activity">​</a></h4>
-<ul>
-<li><strong>Recommended Activities:</strong>
-<ul>
-<li>Regular aerobic exercise</li>
-<li>Strength training</li>
-<li>Yoga or stretching</li>
-<li>Walking in nature</li>
-</ul>
-</li>
-<li><strong>Benefits:</strong>
-Increases production of "feel-good" chemicals and reduces stress hormones</li>
-</ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="3-quality-sleep">3. Quality Sleep<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#3-quality-sleep" class="hash-link" aria-label="Direct link to 3. Quality Sleep" title="Direct link to 3. Quality Sleep">​</a></h4>
-<ul>
-<li><strong>Best Practices:</strong>
-<ul>
-<li>Maintain consistent sleep schedule</li>
-<li>Create a dark, quiet sleeping environment</li>
-<li>Limit screen time before bed</li>
-<li>Aim for 7-9 hours nightly</li>
-</ul>
-</li>
-<li><strong>Impact:</strong>
-Proper sleep helps regulate brain chemistry and emotional stability</li>
-</ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="4-stress-management">4. Stress Management<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#4-stress-management" class="hash-link" aria-label="Direct link to 4. Stress Management" title="Direct link to 4. Stress Management">​</a></h4>
-<ul>
-<li><strong>Effective Techniques:</strong>
-<ul>
-<li>Meditation and mindfulness</li>
-<li>Deep breathing exercises</li>
-<li>Regular breaks during work</li>
-<li>Time in nature</li>
-</ul>
-</li>
-<li><strong>Results:</strong>
-Helps maintain balanced brain chemistry and reduces harmful stress hormones</li>
-</ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="5-social-connection">5. Social Connection<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#5-social-connection" class="hash-link" aria-label="Direct link to 5. Social Connection" title="Direct link to 5. Social Connection">​</a></h4>
-<ul>
-<li><strong>Activities:</strong>
-<ul>
-<li>Regular social interactions</li>
-<li>Group activities</li>
-<li>Meaningful conversations</li>
-<li>Volunteer work</li>
-</ul>
-</li>
-<li><strong>Benefits:</strong>
-Promotes production of bonding and mood-enhancing chemicals</li>
-</ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="6-mental-stimulation">6. Mental Stimulation<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#6-mental-stimulation" class="hash-link" aria-label="Direct link to 6. Mental Stimulation" title="Direct link to 6. Mental Stimulation">​</a></h4>
-<ul>
-<li><strong>Activities:</strong>
-<ul>
-<li>Learning new skills</li>
-<li>Solving puzzles</li>
-<li>Reading</li>
-<li>Creative activities</li>
-</ul>
-</li>
-<li><strong>Impact:</strong>
-Enhances cognitive function and promotes healthy brain chemistry</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="creating-daily-habits">Creating Daily Habits<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#creating-daily-habits" class="hash-link" aria-label="Direct link to Creating Daily Habits" title="Direct link to Creating Daily Habits">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="component-lifecycle-"><strong>Component Lifecycle</strong> 🔄<a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#component-lifecycle-" class="hash-link" aria-label="Direct link to component-lifecycle-" title="Direct link to component-lifecycle-">​</a></h3>
+<p><strong>Q:</strong> Can you explain the concept of a component lifecycle?<br>
+<strong>A:</strong> The component lifecycle consists of phases during a component's existence, such as:</p>
 <ol>
-<li>
-<p><strong>Morning Routine</strong></p>
-<ul>
-<li>Start with exercise</li>
-<li>Eat a nutritious breakfast</li>
-<li>Practice mindfulness</li>
-</ul>
-</li>
-<li>
-<p><strong>During Work</strong></p>
-<ul>
-<li>Take regular breaks</li>
-<li>Stay hydrated</li>
-<li>Practice deep breathing</li>
-</ul>
-</li>
-<li>
-<p><strong>Evening Routine</strong></p>
-<ul>
-<li>Limit screen time</li>
-<li>Engage in relaxing activities</li>
-<li>Maintain consistent sleep schedule</li>
-</ul>
-</li>
+<li><strong>Mounting</strong> 🏗️: When the component is added to the DOM. (e.g., <code>componentDidMount</code> in React)</li>
+<li><strong>Updating</strong> 🔧: When the component's state or props change (e.g., <code>shouldComponentUpdate</code>).</li>
+<li><strong>Unmounting</strong> 🚮: When the component is removed from the DOM (e.g., <code>componentWillUnmount</code>).</li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="when-to-seek-professional-help">When to Seek Professional Help<a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#when-to-seek-professional-help" class="hash-link" aria-label="Direct link to When to Seek Professional Help" title="Direct link to When to Seek Professional Help">​</a></h3>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="virtual-dom-"><strong>Virtual DOM</strong> 💻<a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#virtual-dom-" class="hash-link" aria-label="Direct link to virtual-dom-" title="Direct link to virtual-dom-">​</a></h3>
+<p><strong>Q:</strong> What is the Virtual DOM, and why is it important?<br>
+<strong>A:</strong> The Virtual DOM is a lightweight copy of the actual DOM 🌿.</p>
 <ul>
-<li>Persistent mood changes</li>
-<li>Ongoing sleep issues</li>
-<li>Chronic stress or anxiety</li>
-<li>Difficulty concentrating</li>
-<li>Changes in appetite or energy levels</li>
+<li><strong>Why?</strong>
+<ul>
+<li>It improves performance by minimizing direct DOM manipulation ⚡.</li>
+<li>It uses a "diffing" algorithm to update only the changed elements efficiently 🖍️.</li>
 </ul>
-<p>Remember that while these natural approaches can help optimize brain chemistry, some conditions may require professional medical attention. Always consult healthcare providers for persistent mental health concerns.</p>]]></content:encoded>
-            <category>brain</category>
-            <category>chemical</category>
-        </item>
-        <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://your-docusaurus-site.example.com/blog/welcome</link>
-            <guid>https://your-docusaurus-site.example.com/blog/welcome</guid>
-            <pubDate>Sun, 13 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hello and welcome to my blog! I'm thrilled to have you here as we embark on an exciting journey exploring the interconnected worlds of exercise, workout routines, brain health, and nutrition.]]></description>
-            <content:encoded><![CDATA[<p>Hello and welcome to my blog! I'm thrilled to have you here as we embark on an exciting journey exploring the interconnected worlds of exercise, workout routines, brain health, and nutrition.</p>
-<p>In today’s fast-paced life, maintaining a balance between physical fitness and mental well-being is more important than ever. Whether you’re a seasoned athlete, a fitness enthusiast, or someone just starting their wellness journey, this blog aims to provide valuable insights, tips, and inspiration to help you achieve your goals.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-expect">What to Expect<a href="https://your-docusaurus-site.example.com/blog/welcome#what-to-expect" class="hash-link" aria-label="Direct link to What to Expect" title="Direct link to What to Expect">​</a></h3>
-<ul>
-<li>
-<p><strong>Exercise and Workout Tips:</strong> Discover effective workout routines, from strength training and cardio to flexibility exercises. We'll explore how different types of exercise can enhance your physical health and contribute to mental clarity.</p>
-</li>
-<li>
-<p><strong>Brain Health:</strong> Learn about the fascinating connection between physical activity and brain function. We’ll delve into how exercise can boost your mood, improve focus, and enhance cognitive performance.</p>
-</li>
-<li>
-<p><strong>Nutrition Insights:</strong> Nutrition plays a crucial role in both physical and mental well-being. Expect discussions on balanced diets, meal planning, and how certain foods can fuel your workouts and support brain health.</p>
-</li>
-<li>
-<p><strong>Personal Stories and Experiences:</strong> I’ll share my personal journey, including challenges and triumphs along the way. I hope to create a supportive community where we can learn from each other’s experiences.</p>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="join-the-conversation">Join the Conversation<a href="https://your-docusaurus-site.example.com/blog/welcome#join-the-conversation" class="hash-link" aria-label="Direct link to Join the Conversation" title="Direct link to Join the Conversation">​</a></h3>
-<p>I invite you to engage with the content, share your thoughts, and ask questions. Your journey towards better health is unique, and together, we can inspire and motivate one another.</p>
-<p>Thank you for stopping by! Let’s get started on this path to a healthier body and mind. Stay tuned for exciting posts ahead!</p>
-<p>Here’s to your health and happiness!</p>]]></content:encoded>
-            <category>Hello</category>
-            <category>Docusaurus</category>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="routing-️"><strong>Routing</strong> 🗺️<a href="https://your-docusaurus-site.example.com/blog/interview/frontend-interview#routing-%EF%B8%8F" class="hash-link" aria-label="Direct link to routing-️" title="Direct link to routing-️">​</a></h3>
+<p><strong>Q:</strong> How does routing work in single-page applications (SPAs)?<br>
+<strong>A:</strong> SPAs use frontend routing to change views without refreshing the page:</p>
+<ul>
+<li>Frameworks like React (React Router), Vue (Vue Router), or Angular use their respective tools for navigation 🛤️.</li>
+<li>Routes map URLs to specific components, helping maintain a seamless user experience ✨.</li>
+</ul>
+<hr>
+<p>If you’d like to dig deeper into any of these topics, I’d be happy to elaborate further! 🚀</p>]]></content:encoded>
         </item>
     </channel>
 </rss>

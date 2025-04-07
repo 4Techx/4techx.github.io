@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: '4Workout',
-  tagline: 'Improve your body',
+  title: '4Techx',
+  tagline: 'Improve your skills with 4Techx',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
