@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworkout_notes=self.webpackChunkworkout_notes||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Frontend Interview Questions and Answers","permalink":"/blog/interview/frontend-interview","unlisted":false,"date":"2025-04-07T08:29:25.000Z"}]}')}}]);

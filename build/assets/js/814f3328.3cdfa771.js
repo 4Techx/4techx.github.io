@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworkout_notes=self.webpackChunkworkout_notes||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"interview","permalink":"/blog/interview","unlisted":false,"date":"2025-04-07T09:42:23.278Z"}]}')}}]);

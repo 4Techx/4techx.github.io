@@ -26,13 +26,7 @@ export const actionCategories: ActionCategory[] = [
     category: "Interview",
     description: "Your interview is your stage—shine with every word and gesture!",
     actions: [
-      {
-        id: 1,
-        title: "Frontend Interview",
-        descriptions: ["30 mins"],
-        href: "/docs/interview/interview-frontend",
-        image: <ImageComponent imageUrl={""} alt="Frontend" />
-      }
+      
     ]
   }
 ];
